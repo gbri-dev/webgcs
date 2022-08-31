@@ -1,0 +1,90 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../img/images.png);
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    background-color: #123a53;
+}
+
+header h1 {
+    padding: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: whitesmoke;
+}
+
+header p {
+    text-align: center;
+}
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: rgb(2, 11, 113);
+    opacity: 1;
+}
+
+.logo {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu-principal {
+    background-color: #06233e;
+    float: left;
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+}
+
+.menu-principal nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu-principal nav ul li {
+    border-bottom: 1px solid #363f5f;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.menu-principal nav ul :hover{
+    background: #bdbbbb;
+    color: #123a53;
+    opacity: 1;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+
+.menu-principal img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;    
+}

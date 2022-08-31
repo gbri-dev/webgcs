@@ -1,0 +1,118 @@
+/*menu de cards */
+.modalDialog {
+	position: fixed;
+	font-family: 'verdana';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(67, 124, 170, 0.8);
+	z-index: 9999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	display: none;
+}
+/*pseudo-classe*/
+.modalDialog:target{
+	display: block;
+	opacity: 1;
+	pointer-events: auto;
+}
+/*aninhamento*/
+.modalDialog div{
+	width: 500px;
+	position: relative;
+	margin: 16% auto;
+	padding: 10px 20px 13px 20px;
+	-webKit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+@media (max-width: 520px){
+	.modalDialog div {
+		width: 320px;
+	}
+}
+
+.modalDialog p{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.modalDialog img {
+	width: 50%;
+	position: relative;
+	margin-left: 25%;
+}
+
+/*adição do botão close*/
+.close {
+	background-color: #606061;
+	color: #ffffff;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.close:hover{
+	background-color: #b50909;
+	padding: 1px;
+}
+
+.footer-content {
+	padding: 20px;
+	display: flex;
+}
+
+.card01 {
+	background-color: red;
+}
+.card02 {
+	background-color: rgb(14, 14, 5);
+}
+.card03 {
+	
+	background-color: blue;
+}
+
+
+.footer-text{
+    /* width: 30%; */
+	color: rgb(255, 255, 255);
+    position: relative;
+    float: left;
+}
+
+.footer-text a {
+	color: rgb(255, 255, 255);
+}
+
+.footer-text a:hover {
+	background-color: #5555;
+	text-decoration: none;
+	padding: 4px;
+	border-radius: 11px;
+}
+
+footer {
+	display: flex;
+}
+
+@media (max-width: 720px){
+	footer {
+		display: block;
+	}
+}
