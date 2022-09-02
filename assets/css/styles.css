@@ -32,8 +32,9 @@ header a {
 
 header a:hover{
     text-decoration: underline;
-    color: rgb(2, 11, 113);
+    color: #4f8fac;
     opacity: 1;
+    font-weight: bold;
 }
 
 .logo {
@@ -69,7 +70,7 @@ header a:hover{
 }
 
 .menu-principal nav ul :hover{
-    background: #bdbbbb;
+    background: #4f8fac;
     color: #123a53;
     opacity: 1;
 }
