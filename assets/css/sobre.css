@@ -19,6 +19,11 @@ html {
     text-align: center;
 }
 
+.logo a {
+    color: #100f3a;
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     display: flex;

@@ -1,0 +1,55 @@
+form div {
+    position: relative;
+    margin-top: -10px;
+}
+
+form div {
+    background: #fff;
+    border-bottom: 1px solid #100f3a;
+    /*
+    margin: 10px 10px 20px 10px; top left bottom right
+    padding: 10px 20px; o primeiro valor é: top e bottom  o segundo valor é: left right
+    */
+    margin: 1rem 2rem;
+    padding: 2rem;
+}
+
+[type="text"],
+[type="email"],
+textarea,
+label {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #100f3a;
+}
+
+input {
+    padding: 1rem;
+    color: #605ece;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+}
+
+form {
+    padding: 20px;
+}
+
+form div {
+    padding-top: 13px;
+}
+
+[input="submit"] {
+    cursor: pointer;
+}

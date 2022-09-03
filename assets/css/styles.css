@@ -93,3 +93,15 @@ header a:hover {
     margin: 0 auto;
     display: flex;
 }
+
+picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+picture svg {
+    width: 200px;
+    height: 120px;
+}
