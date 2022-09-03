@@ -1,21 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F0F0;
+}
 
 .logo {
+    width: 200px;
     font-size: 36px;
     font-weight: 800;
     color: #100f3a;
     margin-right: 48px;
     margin-top: -5px;
+    text-align: center;
 }
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
 
 header nav ul {
     list-style: none;
     background-color: #100F3A;
-    width: 100%;
     display: flex;
 }
 
+@media (max-width: 720px) {
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav {
+        width: 100%;
+    }
+}
+
+header nav ul :hover {
+    background-color: #8482DB;
+}
+
+header nav ul li {
+    border-right: 1px solid #fff;
+}
+
 header ul li a {
-    background-color: transparent;
     text-decoration: none;
     display: block;
     padding-left: 24px;
@@ -26,9 +66,68 @@ header ul li a {
     font-weight: 400;
 }
 
-header ul li a :hover {
+a :hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 24px 24px;
+    margin-left: 5%;
+    border-radius: 14px;
+}
+
+main {
+    width: 30%;
+    height: 100%;
+    background-color: #7ab3a96c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+@media (max-width: 860px) {
+    main {
+        width: 100%;
+    }
+}
+
+
+main picture {
+    width: 200px;
+    margin: 15px 0;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 65%;
+    float: left;
+    font-size: 1.6rem;
+    padding: 64px 44px;
+}
+
+@media (max-width: 860px) {
+    section {
+        width: 100%;
+    }
+}
+
+section h3 {
+    color: gray;
+}
+
+.personalized-link a {
     text-decoration: none;
-    color: #007bff;
-    -webkit-font-smothing: antialiased;
-    text-shadow: rgba(0, 0, 0, 1%);
+    color: #100f3a;
+}
+
+.personalized-link a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
