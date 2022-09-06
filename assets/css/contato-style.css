@@ -1,15 +1,11 @@
-form div {
+/* form div {
     position: relative;
     margin-top: -10px;
-}
+} */
 
 form div {
     background: #fff;
     border-bottom: 1px solid #100f3a;
-    /*
-    margin: 10px 10px 20px 10px; top left bottom right
-    padding: 10px 20px; o primeiro valor é: top e bottom  o segundo valor é: left right
-    */
     margin: 1rem 2rem;
     padding: 2rem;
 }
@@ -25,14 +21,26 @@ label {
 label {
     margin-bottom: 1rem;
     font-size: 1.4rem;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-weight: 300;
     color: #100f3a;
 }
 
 input {
-    padding: 1rem;
+    cursor: pointer;
+    padding: 8px;
     color: #605ece;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+textarea {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.quiz {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 article {
@@ -48,8 +56,4 @@ form {
 
 form div {
     padding-top: 13px;
-}
-
-[input="submit"] {
-    cursor: pointer;
 }

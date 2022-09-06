@@ -19,7 +19,8 @@ header {
 }
 
 header h1 {
-    padding: 1.5rem;
+    padding: 1.6rem;
+    font-size: 1.6rem;
     font-weight: 800;
     text-align: center;
     color: whitesmoke;
@@ -39,19 +40,6 @@ header a:hover {
     color: #4f8fac;
     opacity: 1;
     font-weight: bold;
-}
-
-.logo {
-    background-color: brown;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 40px auto;
-}
-
-.logo img {
-    width: 100%;
 }
 
 .menu-principal {
@@ -79,7 +67,7 @@ header a:hover {
     opacity: 1;
 }
 
-.menu-principal a {
+.menu-principal nav ul li a {
     text-decoration: none;
     color: rgb(206, 206, 206);
 }
@@ -92,6 +80,10 @@ header a:hover {
     border-radius: 50%;
     margin: 0 auto;
     display: flex;
+}
+
+.menu-principal img:hover {
+    filter: sepia(60%);
 }
 
 picture {

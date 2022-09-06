@@ -28,3 +28,7 @@
     padding: 20px;
     display: flex;
 }
+
+section {
+    font-size: 1.4rem;
+}
