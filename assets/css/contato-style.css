@@ -57,3 +57,22 @@ form {
 form div {
     padding-top: 13px;
 }
+
+
+@media (max-width: 720px) {
+    form div {
+        display: block;
+        text-align: center;
+    }
+
+    form div {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
