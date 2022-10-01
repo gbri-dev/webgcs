@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,14 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,300;1,400&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="../css/layoutd_ml9.css">
 
     <title>Layouts Web</title>
 </head>
+
 <body>
     <!--Exercicio Módulo 9-->
     <div class="tamanho">
@@ -23,32 +26,83 @@
             <h2><a href="../../exercicios.html">Layouts Web Responsivo</a></h2>
         </header>
     </div>
-   
 
-    <main>
-        <h1>Designer Repesponsivo</h1>
-        <section class="container">
-            
-            <iframe width="560" height="315" name="meu_iframe" src="https://www.youtube.com/embed/i_I9G_EO-Sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="lista">
-                <nav>
-                    <ul>
-                        <li><a href="../../menuIframe.html" target="meu_iframe">Menu Principal</a></li>
-                   </ul>
-                </nav> 
-            </div>
-        </section>
-       <article>
-        <div class="coluna">
+    <h1>Designer Repesponsivo</h1>
+    <section class="container">
 
+        <iframe width="560" height="315" name="meu_iframe" src="https://www.youtube.com/embed/i_I9G_EO-Sk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="lista">
+            <nav>
+                <ul>
+                    <li><a href="../../menuIframe.html" target="meu_iframe">Menu Principal</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <article>
+        <div class="coluna">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Largura css</th>
+                        <th>Altura css</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Desktop</td>
+                        <td>1024</td>
+                        <td>800</td>
+                        <td>
+                            <img src="../img/correct.svg" alt="selecionar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="description">Tablet</td>
+                        <td>768</td>
+                        <td>1024</td>
+                        <td>
+                            <img src="../img/correct.svg" alt="selecionar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="description">SmartPhone</td>
+                        <td>320</td>
+                        <td>480</td>
+                        <td>
+                            <img src="../img/correct.svg" alt="selecionar">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div class="coluna">
-            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto porro incidunt nihil sed.
+                Voluptates necessitatibus ea vitae ipsa, praesentium, qui at velit quis libero reiciendis, error
+                officia voluptatem odit?</p>
         </div>
         <div class="coluna">
-            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officia recusandae quos eligendi sint
+                facere molestias, veritatis ullam illo ipsa quia delectus quisquam dolores at nisi in quis? Quis,
+                dicta?</p>
         </div>
-       </article>
-    </main>
+        <div class="coluna">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illo facere quas eveniet esse, ab, quod
+                vel earum hic adipisci, totam debitis sint inventore voluptates nemo autem. Animi, minus tempore!
+            </p>
+        </div>
+        <div class="iframe">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30195.92770203864!2d-40.089044104533826!3d-18.909650629736785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb5fdc382e2cd7d%3A0x4f79d5009d00769!2sJaguar%C3%A9%2C%20ES%2C%2029950-000!5e0!3m2!1spt-BR!2sbr!4v1664591463368!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </article>
 </body>
+
 </html>
