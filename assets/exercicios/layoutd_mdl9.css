@@ -25,6 +25,30 @@ h2 {
     font-size: 2.6rem;
 }
 
+
+.header a:hover {
+    color: rgb(84, 70, 155);
+}
+
+h3 {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.iframe {
+    width: 100%;
+}
+
+.bloco-iframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #1867c0;
+    padding: 14px;
+    overflow: hidden;
+}
+
+/* Botão */
 li {
     list-style: none;
 }
@@ -32,30 +56,6 @@ li {
 a {
     text-decoration: none;
     color: rgb(206, 206, 206);
-}
-
-.tamanho a:hover{
-    color: rgb(84, 70, 155);
-}
-
-.iframe {
-    width: 100%;
-}
-
-.container .iframe:hover {
-    filter: grayscale(50);
-}
-
-.container{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    padding: 12px;
-    float: left;
-}
-
-nav {
-    float: left;
 }
 
 nav li {
@@ -68,10 +68,16 @@ nav li a {
     color: white;
     font-family: 'Poppins', sans-serif;
     height: 300;
+    cursor: pointer;
 }
 
 .lista {
-    margin: 15px 0;
+    padding: 30px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+nav ul {
+    margin: 35px;
 }
 
 #data-table {
@@ -118,21 +124,27 @@ td.description {
 
 
 .coluna {
-    display: block;
     width: 50%;
-    float: left;
+    /* float: left; */
     padding: 15px;
     /* background: #eee;
     border: 1px solid #333; */
-    
-  }
-  
+
+}
+
 .mapa {
     float: left;
 }
+
 @media(max-width: 425px) {
-    .coluna{
+    .coluna {
         width: 100%;
+    }
+
+    .bloco-iframe {
+        width: 100%;
+        display: block;
+        overflow: hidden;
     }
 }
 
@@ -146,8 +158,14 @@ td.description {
     .coluna {
         width: 100%;
     }
-    .container{
+
+    .bloco-iframe {
         width: 100%;
-        display: block;
+        /* display: block; */
+        overflow: hidden;
+    }
+
+    .iframe {
+        overflow: hidden;
     }
 }
