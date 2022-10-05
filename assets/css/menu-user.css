@@ -1,5 +1,5 @@
 /*menu de cards */
-.modalDialog{
+.modalDialog {
 	width: 100%;
 	height: 100%;
 	display: none;
@@ -13,47 +13,46 @@
 	justify-content: center;
 	align-items: center; */
 }
+
 /*pseudo-classe*/
-.modalDialog:target{
+.modalDialog:target {
 	display: block;
 	opacity: 1;
 	pointer-events: auto;
 }
+
 /*aninhamento*/
 .modalDialog div {
-	width: 60em;
+	width: 100%;
 	position: relative;
+	overflow: hidden;
 	background-color: rgb(35, 95, 205);
 }
 
-/* .aligner {
+.aligner {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-} */
+}
 
-.pop-up{
-	/*left: 26%;*/
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
-	display: flex;
-	border-radius: 12px;
+.pop-up {
+	width: 100%;
 	padding: 15px;
 }
 
 
-@media (max-width: 560px){
+@media (max-width: 560px) {
 	.modalDialog div {
 		width: 100%;
 	}
+
 	.menu-principal {
 		display: none;
 	}
 }
 
-.modalDialog p{
+.modalDialog p {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -70,9 +69,9 @@
 	color: #ffffff;
 	line-height: 25px;
 	position: absolute;
-	right: -12px;
+	right: 0px;
 	text-align: center;
-	top: -10px;
+	top: 0px;
 	width: 24px;
 	text-decoration: none;
 	font-weight: bold;
@@ -81,7 +80,7 @@
 	border-radius: 12px;
 }
 
-.close:hover{
+.close:hover {
 	background-color: #b50909;
 }
 
@@ -93,20 +92,22 @@
 .card01 {
 	background-color: red;
 }
+
 .card02 {
 	background-color: rgb(14, 14, 5);
 }
+
 .card03 {
-	
+
 	background-color: blue;
 }
 
 
-.footer-text{
-    /* width: 30%; */
+.footer-text {
+	/* width: 30%; */
 	color: rgb(255, 255, 255);
-    position: relative;
-    float: left;
+	position: relative;
+	float: left;
 }
 
 .footer-text a {
@@ -122,7 +123,7 @@ footer {
 	display: flex;
 }
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
 	footer {
 		display: block;
 	}
@@ -135,30 +136,33 @@ footer {
 	align-items: center;
 } */
 
-.conteudo h1 span{
+.conteudo h1 span {
 	display: none;
 }
+
 .conteudo nav {
 	display: none;
 }
+
 /* Animação menu */
-@media (max-width: 560px){
-.conteudo h1 span{
-	font-size: 14px;
-	color: rgb(192, 24, 24);
-	cursor: pointer;
-	display: block;
-  }
-  .conteudo nav {
-display: block;
-  overflow: hidden;
-  height: 0;
-  transition: 1s;
-  }
-  
-  .mostrar {   
-  height: 200px !important;
-  }
+@media (max-width: 560px) {
+	.conteudo h1 span {
+		font-size: 14px;
+		color: rgb(192, 24, 24);
+		cursor: pointer;
+		display: block;
+	}
+
+	.conteudo nav {
+		display: block;
+		overflow: hidden;
+		height: 0;
+		transition: 1s;
+	}
+
+	.mostrar {
+		height: 200px !important;
+	}
 }
 
 #menu-mobile {
