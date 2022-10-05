@@ -9,8 +9,6 @@ html {
     background-color: #F2F1F1;
 }
 
-
-
 header {
     width: 100%;
     height: 11rem;
@@ -36,26 +34,23 @@ a {
     color: rgb(206, 206, 206);
 }
 
-iframe {
+.tamanho a:hover{
+    color: rgb(84, 70, 155);
+}
+
+.iframe {
     width: 100%;
 }
 
-.container :hover {
+.container .iframe:hover {
     filter: grayscale(50);
 }
 
-main {
-    margin: 100px 0;
-}
-
-main h1 {
-    font-size: xx-large;
-    margin: 0 12px;
-}
-
-
-
-section {
+.container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
     float: left;
 }
 
@@ -80,7 +75,7 @@ nav li a {
 }
 
 #data-table {
-    width: 100vh;
+    width: 100%;
     float: left;
     border-spacing: 0 0.5rem;
     color: #969cb3;
@@ -126,14 +121,18 @@ td.description {
     display: block;
     width: 50%;
     float: left;
-    padding: 5px;
-
+    padding: 15px;
+    /* background: #eee;
+    border: 1px solid #333; */
+    
+  }
+  
+.mapa {
+    float: left;
 }
-
-
 @media(max-width: 425px) {
-    article {
-        display: table-cell;
+    .coluna{
+        width: 100%;
     }
 }
 
@@ -146,5 +145,9 @@ td.description {
 
     .coluna {
         width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: block;
     }
 }

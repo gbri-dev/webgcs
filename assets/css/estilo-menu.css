@@ -25,6 +25,9 @@ html {
     color: #100f3a;
     text-decoration: none;
 }
+.logo a:hover{
+    color: #8482DB;
+}
 
 header {
     width: 100%;
