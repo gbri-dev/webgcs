@@ -82,7 +82,6 @@ nav ul {
 
 #data-table {
     width: 100%;
-    float: left;
     border-spacing: 0 0.5rem;
     color: #969cb3;
 }
@@ -133,7 +132,8 @@ td.description {
 }
 
 .mapa {
-    float: left;
+    width: 100%;
+    overflow: hidden;
 }
 
 @media(max-width: 425px) {
