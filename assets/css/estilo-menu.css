@@ -25,7 +25,8 @@ html {
     color: #100f3a;
     text-decoration: none;
 }
-.logo a:hover{
+
+.logo a:hover {
     color: #8482DB;
 }
 
@@ -142,7 +143,7 @@ section p {
 }
 
 section h4 {
-    text-decoration: underline wavy #100F3A;
+    /* text-decoration: underline; */
     font-style: oblique;
 }
 
