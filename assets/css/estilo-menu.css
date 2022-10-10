@@ -102,23 +102,26 @@ main {
 @media (max-width: 860px) {
     main {
         width: 100%;
+        display: block;
+        overflow: hidden;
     }
 }
 
 
 main picture {
-    width: 200px;
+    width: 190px;
     margin: 15px 0;
+    border-radius: 55px;
+    background-color: #100F3A;
 }
 
-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main picture :hover {
+    float: right;
 }
+
 
 picture img {
-    filter: sepia(100%);
+    filter: sepia(80%);
 }
 
 picture img:hover {
