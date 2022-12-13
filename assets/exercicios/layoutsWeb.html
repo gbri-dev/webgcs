@@ -7,7 +7,7 @@
     <!--Designer Responsivo precisa conter a viewport para funcionar-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Reset css-->
-    <link rel="stylesheet" href="./assets/css/reset-YUI.css">
+    <link rel="stylesheet" href="../css/reset-YUI.css">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../exercicios/layoutd_mdl9.css">
 
     <title>Layouts Web</title>
+
 </head>
 
 <body>
@@ -33,14 +34,16 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
+            <div class="Trex">
+                <iframe src="chrome://dino/" frameborder="0" scrolling="no" width="100%" loading="lazy"></iframe>
+            </div>
         </div>
     </div>
 
     <div class="lista">
         <nav>
             <ul>
-                <li><a href="../../menuIframe.html" target="meu_iframe">Menu Principal</a></li>
-
+                <li><button class="botao" type="submit" onclick="jogar()">T-REX Dino</a></li>
             </ul>
             <ul>
                 <li><a href="layoutsWeb.html">Principal</a></li>
@@ -115,6 +118,9 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+
+    <script src="../jquery/jquery-3.6.1.min.js"></script>
+    <script src="../jquery/common.js"></script>
 </body>
 
 </html>

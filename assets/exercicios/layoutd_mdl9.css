@@ -9,6 +9,10 @@ html {
     background-color: #F2F1F1;
 }
 
+.Trex {
+    display: none;
+}
+
 header {
     width: 100%;
     height: 11rem;
@@ -49,6 +53,16 @@ h3 {
 }
 
 /* Botão */
+.botao {
+    padding: 12px 8px;
+    background-color: #1867c0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 300;
+    cursor: pointer;
+    border: none;
+}
+
 li {
     list-style: none;
 }
