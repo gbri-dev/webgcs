@@ -109,16 +109,14 @@ main {
 
 
 main picture {
-    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 15px 0;
-    border-radius: 55px;
+    border-radius: 50px;
     background-color: #100F3A;
 }
-
-main picture :hover {
-    float: right;
-}
-
 
 picture img {
     filter: sepia(80%);
