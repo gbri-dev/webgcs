@@ -1,8 +1,14 @@
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-text {
     /* width: 30%; */
     color: #123a53;
     position: relative;
-    float: left;
 }
 
 .footer-text a {
@@ -15,8 +21,6 @@
     padding: 4px;
     border-radius: 11px;
 }
-
-
 
 @media (max-width: 720px) {
     .menu-card {
@@ -31,4 +35,10 @@
 
 section {
     font-size: 1.4rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
 }
