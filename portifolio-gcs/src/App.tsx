@@ -1,10 +1,19 @@
-import StyleGlobal from './styles'
+import AboutMe from './containers/about'
+import Projects from './containers/projects'
+import Sidebar from './containers/sidebar'
+import StyleGlobal, { Container } from './styles'
 
 function App() {
   return (
     <>
       <StyleGlobal />
-      <h1>StyleComponents</h1>
+      <Container>
+        <Sidebar />
+        <main>
+          <AboutMe />
+          <Projects />
+        </main>
+      </Container>
     </>
   )
 }
