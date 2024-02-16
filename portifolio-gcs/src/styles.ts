@@ -4,9 +4,10 @@ const StyleGlobal = createGlobalStyle`
   *{
     margin: 0;
     padding: 0;
-    background: grey;
+    background: #f1f2f6;
     color: white;
     font-family: "Poppins", sans-serif;
+    list-style: none;
   }
 
   body {
