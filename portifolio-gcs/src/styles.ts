@@ -1,10 +1,12 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
+import { Theme } from './themes/dark'
+
 const StyleGlobal = createGlobalStyle`
   *{
     margin: 0;
     padding: 0;
-    background: #f1f2f6;
+    background-color: ${(props) => (props.theme as Theme).backgroundColor};
     color: white;
     font-family: "Poppins", sans-serif;
     list-style: none;

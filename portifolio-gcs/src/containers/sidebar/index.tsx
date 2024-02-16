@@ -2,7 +2,12 @@ import Title from '../../components/Title'
 import Avatar from '../../components/Avatar'
 import Paragraph from '../../components/Paragraph'
 import { Description, ChangeTheme, SidebarContainer } from './styles'
-const Sidebar = () => (
+
+type Props = {
+  changeThemeOn: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -13,7 +18,7 @@ const Sidebar = () => (
       <Description tipo="principal" fontSize={12}>
         Programador FullStack C#
       </Description>
-      <ChangeTheme>Trocar tema</ChangeTheme>
+      <ChangeTheme onClick={props.changeThemeOn}>Trocar tema</ChangeTheme>
     </SidebarContainer>
   </aside>
 )
