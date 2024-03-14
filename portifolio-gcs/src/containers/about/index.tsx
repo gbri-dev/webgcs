@@ -6,8 +6,10 @@ const AboutMe = () => (
   <section>
     <Title fontSize={16}>Sobre mim</Title>
     <Paragraph tipo="principal">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint repudiandae
-      voluptates quos nisi reiciendis aperiam culpa quam harum quod ut!
+      Olá, eu sou o Gabriel, trabalho como programador desde de 2022. Tenho
+      interesses pelas áreas de API dotnet e desenvolvimento front-end com VUEJS
+      e React. Atualmente atuo como programador (VUEJS) na EL Produções de
+      software.
     </Paragraph>
     <GitHubSection>
       <img
